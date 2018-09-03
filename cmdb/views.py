@@ -3,6 +3,7 @@ from django.shortcuts import  HttpResponse
 from django.shortcuts import render,render_to_response
 from cmdb.models import User
 #from cmdb import models
+
 # Create your views here.
 userinfo=[]
 def index(request):
