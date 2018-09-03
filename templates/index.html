@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <script src="/static/js/jquery-1.10.2.js"></script>
+
+    <h1>yonghushuru</h1>
+    <form action="/index/" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="提交">
+    </form>
+    <hr>
+    <h1>yonghuxinxi</h1>
+    {{ da }}
+    <table>
+        <thead>
+            <th>yonghuming</th>
+            <th>mima</th>
+            <th>shifoushanchu</th>
+        </thead>
+        <tbody>
+
+            {% for line in data %}
+                <tr>
+                    <td>{{ line.name }}</td>
+                     <td>{{ line.pwd }}</td>
+                    <td><a href="/delete?sid={{ line.sid }}">shanchu</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
