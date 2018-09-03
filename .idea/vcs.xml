@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="CVS" />
+    <mapping directory="$PROJECT_DIR$/../../../sharpresp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../xxx/test" vcs="Git" />
   </component>
 </project>
