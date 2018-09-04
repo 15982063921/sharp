@@ -15,6 +15,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="ceshi" />
+    <orderEntry type="module" module-name="untitled2" />
+    <orderEntry type="module" module-name="sharp" />
+    <orderEntry type="module" module-name="sharp" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
